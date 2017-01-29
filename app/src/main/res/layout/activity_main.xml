@@ -5,36 +5,36 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context="com.example.andra.sendinglove.MainActivity">
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:srcCompat="@drawable/love"
         android:layout_centerVertical="true"
-        android:scaleType="centerCrop" />
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/love" />
 
     <TextView
-        android:text="Thinking of you..."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:padding="16dp"
-        android:textSize="36sp"
-        android:textColor="#ffcc00" />
+        android:text="@string/thinking_of_you"
+        android:textColor="#ffcc00"
+        android:textSize="36sp" />
 
     <TextView
-        android:text="With love"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:paddingBottom="16dp"
-        android:paddingRight="16dp"
-        android:textSize="26sp"
-        android:textColor="#ffcc00" />
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:text="@string/with_love"
+        android:textColor="#ffcc00"
+        android:textSize="26sp" />
 </RelativeLayout>
